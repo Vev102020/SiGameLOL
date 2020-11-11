@@ -1,0 +1,83 @@
+@media screen and (max-width: 1300px) {
+  .grid {
+    grid-template-columns: repeat(3, minmax(50px, 150px));
+    grid-template-rows: repeat(2, 60px);
+    margin-top: 45px;
+    margin-bottom: 45px;
+  }
+  .game-title,
+  .game-title2,
+  .Rounded-regular {
+    font-size: 20pt;
+  }
+  .game-title3 {
+    font-size: 15pt;
+  }
+  .footer_title {
+    font-size: 8pt;
+  }
+  .Rounded-bold,
+  .button-back,
+  .categories p {
+    font-size: 12pt;
+  }
+}
+@media screen and (max-width: 650px) {
+  .grid {
+    grid-template-columns: repeat(2, minmax(50px, 150px));
+    grid-template-rows: repeat(3, 60px);
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  section {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(../image/image2.png) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .categories {
+    border-bottom: none;
+    margin-bottom: 30px;
+    padding-bottom: 0;
+    flex-direction: column;
+  }
+  .categories p {
+    border-bottom: 0;
+    padding-bottom: 0;
+  }
+  .categories__mini:not(:last-child) {
+    margin-right: 0;
+  }
+  .grid2 {
+    grid-template-columns: repeat(3, minmax(50px, 150px));
+    grid-template-rows: repeat(1, 60px);
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #efc88c;
+  }
+}
+@media screen and (max-width: 400px) {
+  .grid {
+    grid-template-columns: repeat(1, minmax(50px, 150px));
+    grid-template-rows: repeat(6, 60px);
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .game-title,
+  .game-title2,
+  .Rounded-regular,
+  .grid button {
+    font-size: 15pt;
+  }
+  .game-title3 {
+    font-size: 10pt;
+  }
+  .footer_title {
+    font-size: 6pt;
+  }
+  .Rounded-bold,
+  .categories p,
+  .button-back {
+    font-size: 10pt;
+  }
+}

@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.Rounded-bold {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-size: 16pt;
+  font-weight: 700;
+  color: #efc88c;
+}
+.Rounded-regular {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-size: 25pt;
+  font-weight: 400;
+  color: #efc88c;
+}
+header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #010c18;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.5);
+}
+.header {
+  width: 80%;
+  height: auto;
+}
+.container {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../image/image.png) center no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+.game-title {
+  font-size: 25pt;
+  width: 100%;
+  margin-top: 80px;
+  margin-bottom: 20px;
+
+  text-shadow: 2px 5px 4px rgba(0, 0, 0, 0.37);
+}
+.game-title2 {
+  font-size: 25pt;
+  width: 100%;
+  text-align: center;
+  text-shadow: 2px 5px 4px rgba(0, 0, 0, 0.37);
+}
+.game-title3 {
+  text-align: justify;
+  width: 100%;
+  font-size: 15pt;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  text-shadow: 2px 5px 4px rgba(0, 0, 0, 0.37);
+}
+.grid {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  display: grid;
+  grid-template-columns: repeat(6, minmax(50px, 150px));
+  grid-gap: 30px;
+  grid-template-rows: repeat(1, 60px);
+}
+.grid button {
+  background: rgba(236, 216, 186, 0.1);
+  border: 2px solid #efc88c;
+  box-sizing: border-box;
+}
+
+.grid button:hover {
+  background: rgba(236, 216, 186, 0.3);
+}
+.grid button:focus {
+  background: rgba(47, 139, 255, 0.1);
+  border: 2px solid #2f8bff;
+  color: #6189bb;
+  box-sizing: border-box;
+  outline: 0;
+}
+footer {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #010c18;
+}
+.footer {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_title {
+  font-size: 10pt;
+}
+/*2 страница-------------------------------*/
+.categories {
+  margin-top: 30px;
+  display: flex;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid #efc88c;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+}
+.categories__mini:not(:last-child) {
+  margin-right: 30px;
+}
+.categories__mini {
+  display: flex;
+  flex-direction: column;
+  min-width: 140px;
+}
+.categories p {
+  font-size: 16pt;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 2px 5px 4px rgba(0, 0, 0, 0.37);
+  padding-bottom: 10px;
+  border-bottom: 2px solid #efc88c;
+}
+.grid2 {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(1, minmax(50px, 150px));
+  grid-gap: 30px;
+  grid-template-rows: repeat(3, 60px);
+}
+.play {
+  background: rgba(47, 139, 255, 0.1) !important;
+  border: 2px solid #2f8bff !important;
+  color: #6189bb;
+  box-sizing: border-box;
+  outline: 0;
+  background-image: url("../image/icon-stop.svg") !important;
+  background-position-x: center !important;
+  background-position-y: center !important;
+  background-repeat: no-repeat !important;
+  background-size: 25px !important;
+}
+
+.audio__button {
+  background: rgba(236, 216, 186, 0.1);
+  border: 2px solid #efc88c;
+  box-sizing: border-box;
+  background-position-x: center;
+  background-position-y: center;
+  background-image: url("../image/icon-play.svg");
+  background-repeat: no-repeat;
+  background-size: 25px;
+  outline: 0;
+}
+
+.button-back {
+  background: rgba(236, 216, 186, 0.1);
+  border: 2px solid #efc88c;
+  box-sizing: border-box;
+  font-size: 16pt;
+  margin-bottom: 50px;
+  width: 150px;
+  height: 50px;
+}
+.button-back:hover {
+  background: rgba(236, 216, 186, 0.3);
+}
+.button-back:focus {
+  background: rgba(47, 139, 255, 0.1);
+  border: 2px solid #2f8bff;
+  color: #6189bb;
+  box-sizing: border-box;
+  outline: 0;
+}
